@@ -4215,7 +4215,7 @@ interface TextOptions extends IObjectOptions {
     /**
      * Text input direction. supporting RTL languages.
      */
-    direction?: '' | 'ltr' | 'rtl';
+    direction?: 'ltr' | 'rtl';
     text?: string;
     /**
      * List of properties to consider when checking if cache needs refresh
